@@ -1,5 +1,5 @@
 {
-	"name": "src",
+	"name": "source",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "blob_evs_dev",
