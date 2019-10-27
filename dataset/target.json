@@ -1,0 +1,22 @@
+{
+	"name": "target",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blob_connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "target",
+				"container": "evsdev"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
